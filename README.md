@@ -259,3 +259,11 @@ Pada praktikum ini dilakukan pembagian CLASSESS yang berbeda, pada CPT menggunak
 
 
 ## CIDR
+
+![iter1](https://user-images.githubusercontent.com/74223938/143684593-5a92d17c-4128-41f8-9ffd-ade663a6fa59.png)
+![iter2](https://user-images.githubusercontent.com/74223938/143684602-b7deee4b-e889-4637-8482-f3517e283cd5.png)
+![iter3](https://user-images.githubusercontent.com/74223938/143684607-2b439299-3504-463f-9ead-df625b12b3e8.png)
+![iter4](https://user-images.githubusercontent.com/74223938/143684612-200ed1ec-d7e0-4486-88cb-7e2bfa189b6c.png)
+![iter5](https://user-images.githubusercontent.com/74223938/143684617-4187bd08-bdd5-4d4e-9eb0-bee949a1048b.png)
+![iter6](https://user-images.githubusercontent.com/74223938/143684620-9aeb99f8-9297-4653-8b5a-5901e8af2fff.png)
+![treeCIDR](https://user-images.githubusercontent.com/74223938/143684621-18f69efa-e1ab-48f7-9e3e-4e391207063c.jpg)
