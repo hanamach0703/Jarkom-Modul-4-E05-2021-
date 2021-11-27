@@ -267,3 +267,34 @@ Pada praktikum ini dilakukan pembagian CLASSESS yang berbeda, pada CPT menggunak
 ![iter5](https://user-images.githubusercontent.com/74223938/143684617-4187bd08-bdd5-4d4e-9eb0-bee949a1048b.png)
 ![iter6](https://user-images.githubusercontent.com/74223938/143684620-9aeb99f8-9297-4653-8b5a-5901e8af2fff.png)
 ![treeCIDR](https://user-images.githubusercontent.com/74223938/143684621-18f69efa-e1ab-48f7-9e3e-4e391207063c.jpg)
+
+## Foosha
+### Konfigurasi Jaringan
+```
+auto eth0
+iface eth0 inet dhcp
+
+auto eth1
+iface eth1 inet static
+        address 192.202.160.1
+        netmask 255.255.255.252
+
+auto eth3
+iface eth3 inet static
+        address 192.202.64.1
+        netmask 255.255.255.252
+
+auto eth4
+iface eth4 inet static
+        address 192.202.192.1
+        netmask 255.255.252.0
+```
+### Konfigurasi Router
+```
+
+```
+
+## Kendala
+
+- Baru paham penentuan NID subnet router CIDR diwaktu akhir
+- Tidak mampu Menyelesaikan konfigurasi GNS3
