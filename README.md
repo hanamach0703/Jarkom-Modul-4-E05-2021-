@@ -93,9 +93,169 @@ Pada praktikum ini dilakukan pembagian CLASSESS yang berbeda, pada CPT menggunak
   192.202.0.0/21 via 192.202.27.162
   192.202.27.0/25 via 192.202.27.162 
   ```
-
-
   
+- CIPHER (sebagai Client)
+  Mengatur IP pada Configuration CIPHER yang mengarah ke WATER7
+  
+  <img width="700" alt="CHIPER ke WATER7" src="https://user-images.githubusercontent.com/66562311/143672383-4df191ba-9347-4d86-a080-bc6a5de775fb.PNG">
+
+- PUCCI (sebagai Router)
+  Mengatur IP pada Configuration PUCCI yang mengarah ke WATER7
+  
+  <img width="700" alt="PUCCI ke WATER7" src="https://user-images.githubusercontent.com/66562311/143672444-67a4d3c4-c2fb-4aea-8860-7b1ced9fe473.PNG">
+
+  Mengatur IP pada Configuration PUCCI yang mengarah ke CALMBELT dan COURT YARD
+  
+  <img width="700" alt="PUCCI ke CALMBELT dan COURT YARD" src="https://user-images.githubusercontent.com/66562311/143672454-8237f3a1-3e17-45ea-bf41-a7fbda679a71.PNG">
+  
+  Mengatur IP pada Configuration PUCCI yang mengarah ke JIPANGU
+  
+  <img width="700" alt="PUCCI ke JIPANGU" src="https://user-images.githubusercontent.com/66562311/143672447-a85a83be-361a-44a4-b72b-cecf9da974fb.PNG">
+  
+  Meleakukan routing pada PUCCI
+  
+  <img width="700" alt="PUCCI routing" src="https://user-images.githubusercontent.com/66562311/143672460-b3ca03f0-e04b-4d3c-a4e4-2857a97158a9.PNG">
+
+  ```
+  0.0.0.0/0 via 192.202.27.161
+  ```
+  
+- JIPANGU (sebagai Client)
+  Mengatur IP pada Configuration JIPANGU yang mengarah ke PUCCI
+  
+  <img width="700" alt="JIPANGU ke PUCCI" src="https://user-images.githubusercontent.com/66562311/143672544-ccb92d32-d63f-4301-bdd9-4fc75f67318f.PNG">
+  
+- CALMBELT (sebagai Client)
+  Mengatur IP pada Configuration CALMBELT yang mengarah ke PUCCI
+  
+  <img width="700" alt="CALMBELT ke PUCCI" src="https://user-images.githubusercontent.com/66562311/143672558-83eba4ec-c2ee-4cff-9fb7-bf436d18ab3c.PNG">
+  
+- COURT YARD (sebagai Client)
+  Mengatur IP pada Configuration COURT YARD yang mengarah ke PUCCI
+  
+  <img width="700" alt="COURT YARD ke PUCCI" src="https://user-images.githubusercontent.com/66562311/143672565-ca7180db-2759-4393-bac9-beb7cf3d1ffb.PNG">
+  
+- GUANHO (sebagai Router)
+  Mengatur IP pada Configuration GUANHO yang mengarah ke FOOSHA
+  
+  <img width="700" alt="GUANHO ke FOOSHA" src="https://user-images.githubusercontent.com/66562311/143672615-ed6dde6c-0715-44b1-bd20-804b164c316e.PNG">
+
+  Mengatur IP pada Configuration GUANHO yang mengarah ke MAINGATE dana ALABASTA
+  
+  <img width="700" alt="GUANHO ke MAINGATE dan ALABASTA" src="https://user-images.githubusercontent.com/66562311/143672624-c5ba6a3a-6d49-4153-9fd0-5c16ce31b098.PNG">
+
+  Mengatur IP pada Configuration GUANHO yang mengarah ke OIIMO
+  
+  <img width="700" alt="GUANHO ke OIMO" src="https://user-images.githubusercontent.com/66562311/143672632-ffed6b08-9640-450e-9e18-d5186018040d.PNG">
+
+  Mengatur IP pada Configuration GUANHO yang mengarah ke JABRA
+  
+  <img width="700" alt="GUANHO ke JABRA" src="https://user-images.githubusercontent.com/66562311/143672636-39fbd80a-59f6-4f8a-adb9-c983a908ba83.PNG">
+
+  Melakukan routing pada GUANHO
+  
+  <img width="700" alt="GUANHO routing" src="https://user-images.githubusercontent.com/66562311/143672640-5733952f-eeee-4019-83db-eca86d9f1cb4.PNG">
+
+   ```
+   0.0.0.0/0 via 192.202.27.149
+   192.202.27.128/28 via 192.202.24.2
+   192.202.27.168/30 via 192.202.27.146
+   192.202.26.0/24 via 192.202.27.146
+   192.202.16.0/22 via 192.202.27.146
+
+   ```
+   
+- JABRA (sebagai Client)
+  Mengatur IP pada Configuration JABRA yang mengarah ke GUANHO
+   
+  <img width="700" alt="JABRA ke GUANHO" src="https://user-images.githubusercontent.com/66562311/143672773-621215ff-3323-4ab6-bb51-9cd951e968e6.PNG">
+
+- MAINGATE (sebagai Client)
+  Mengatur IP pada Configuration MAINGATE yang mengarah ke GUANHO
+   
+  <img width="700" alt="MAINGATE ke GUANHO" src="https://user-images.githubusercontent.com/66562311/143672803-e20a9156-651d-4d1d-a4cb-d63e2551606e.PNG">
+
+- ALABASTA (sebagai Router)
+  Mengatur IP pada Configuration ALABASTA yang mengarah ke GUANHO
+  
+  <img width="700" alt="ALABASTA ke GUANHO" src="https://user-images.githubusercontent.com/66562311/143672861-cb9ef2da-24da-4e06-9f05-46001d52ac1d.PNG">
+  
+  Mengatur IP pada Configuration ALABASTA yang mengarah ke JORGE
+  
+  <img width="700" alt="ALABASTA ke JORGE" src="https://user-images.githubusercontent.com/66562311/143672862-e666d09b-a072-4999-8f0f-b8d62706cbda.PNG">
+  
+  Melakukan routing pada ALABASTA
+  
+  <img width="700" alt="ALABASTA routing" src="https://user-images.githubusercontent.com/66562311/143672867-fca4c595-6ffc-4f90-86ed-58e13cc527c3.PNG">
+
+  ```
+  0.0.0.0/0 via 192.202.24.1
+  ```
+  
+- JORGE
+  Mengatur IP pada Configuration JORGE yang mengarah ke ALABASTA
+  
+  <img width="700" alt="JORGE ke ALABASTA" src="https://user-images.githubusercontent.com/66562311/143672893-6c36aee3-23e1-4c9b-98e1-c9194610c233.PNG">
+  
+- OIIMO (sebagai Router)
+  Mengatur IP pada Configuration OIIMO yang mengarah ke GUANHO
+  
+  <img width="700" alt="OIIMO ke GUANHO" src="https://user-images.githubusercontent.com/66562311/143672968-573da040-f301-4375-869d-32a60d7ae0de.PNG">
+
+  Mengatur IP pada Configuration OIIMO yang mengarah ke FUKUROU
+  
+  <img width="700" alt="OIIMO ke FUKUROU" src="https://user-images.githubusercontent.com/66562311/143672964-73e56d4a-a12d-4297-95ea-f62e969770d4.PNG">
+
+  Mengatur IP pada Configuration OIIMO yang mengarah ke SEASTONE dan ENIESLOBBY
+  
+  <img width="700" alt="OIIMO ke ENIESLOBBY dan SEASTONE" src="https://user-images.githubusercontent.com/66562311/143672961-1d7158e7-5d3c-4efe-b658-7c4e8905a35d.PNG">
+
+  Melakukkan routing pada OIIMO
+  
+  <img width="700" alt="OIIMO routing" src="https://user-images.githubusercontent.com/66562311/143672972-cc86f36a-afc3-46a5-be54-081c403887f4.PNG">
+
+  ```
+  0.0.0.0/0 via 192.202.27.145
+  192.202.16.0/22 via 192.202.26.2
+  ```
+  
+- FUKUROU (sebagai Server)
+  Mengatur IP pada Configuration FUKUROU yang mengarah ke OIIMO
+  
+  <img width="700" alt="FUKUROU ke OIIMO" src="https://user-images.githubusercontent.com/66562311/143673008-94296e1f-8a62-41c8-9e0e-e6a3c18c8022.PNG">
+
+- ENIESLOBBY (sebagai Client)
+  Mengatur IP pada Configuration ENIESLOBBY yang mengarah ke OIIMO
+  
+  <img width="700" alt="ENIESLOBBY ke OIIMO" src="https://user-images.githubusercontent.com/66562311/143673066-72f646ad-5097-4f6d-b3f5-004fa2c0359a.PNG">
+
+- SEASTONE (sebagai Router)
+  Mengatur IP pada Configuration SEASTONE yang mengarah ke OIIMO
+  
+  <img width="700" alt="SEASTONE ke OIMO" src="https://user-images.githubusercontent.com/66562311/143673106-c994c99b-9640-4c3f-9333-81a00b758645.PNG">
+
+  Mengatur IP pada Configuration SEASTONE yang mengarah ke ELENA
+  
+  <img width="700" alt="SEASTONE ke ELENA" src="https://user-images.githubusercontent.com/66562311/143673104-d9a3e1b2-2cd8-48ab-b8d8-4033d8436c18.PNG">
+
+  Melakukan routing pada SEASTONE
+  
+  <img width="700" alt="SEASTONE routing" src="https://user-images.githubusercontent.com/66562311/143673108-d523e49e-0116-4584-be35-c47c283ca244.PNG">
+
+  ```
+  0.0.0.0/0 via 192.202.26.1
+  ```
+  
+- ELENA (sebagai Client)
+  Mengatur IP pada Configuration ELENA yang mengarah ke SEASTONE
+  
+  <img width="700" alt="ELENA ke SEASTONE" src="https://user-images.githubusercontent.com/66562311/143673154-35096cde-726e-4253-9df5-387c849d273b.PNG">
+  
+- DORIKI (sebagai Server)
+  Mengatur IP pada Configuration DORIKI yang mengarah ke FOOSHA
+  
+  <img width="700" alt="DORIKI ke FOOSHA" src="https://user-images.githubusercontent.com/66562311/143673193-f46e5359-169e-46a7-942d-b5f0d045c7e0.PNG">
+
 
 
 ## CIDR
