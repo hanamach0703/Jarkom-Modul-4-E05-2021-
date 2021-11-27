@@ -7,3 +7,4 @@
 
 
 
+![VLSM_pembagianIP](https://user-images.githubusercontent.com/66562311/143669318-45c2cf65-d9a3-4d97-8981-09e535d1e28a.jpg)
